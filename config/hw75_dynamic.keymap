@@ -75,18 +75,18 @@
 			sensor-bindings = <&inc_dec_mw MW_UP(1) MW_DN(1)>;
 		};
 
-		arrow_vertical {
+		select_vertical {
 			label = "上下";
 			icon = [EF 85 BA];
 			bindings = <&trans &trans>;
-			sensor-bindings = <&inc_dec_kp UP DOWN>;
+			sensor-bindings = <&inc_dec_kp DOWN UP>;
 		};
 
-		arrow_horizontal {
+		select_horizontal {
 			label = "左右";
 			icon = [EF 85 B9];
 			bindings = <&trans &trans>;
-			sensor-bindings = <&inc_dec_kp LEFT RIGHT>;
+			sensor-bindings = <&inc_dec_kp RIGHT LEFT>;
 		};
 	};
 };
