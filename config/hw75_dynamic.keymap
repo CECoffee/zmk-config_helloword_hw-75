@@ -50,7 +50,7 @@
 			label = "音量";
 			icon = [EF 86 AE];
 			bindings = <&lvkp LV_KEY_PREV &lvkp LV_KEY_NEXT>;
-			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 
 		brightness {
